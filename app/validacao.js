@@ -1,10 +1,10 @@
 function verificaSeOChutePossuiUmValorValido(chute){
 
-    if(chute == "Sim" || "sim"){
+    if(chute.toLowerCase() == "sim"){
         document.body.innerHTML=`<h2>Uhuuuuuul 🥳</h2>
                                 <h3></h3>
                                 <img src="./frame.png">`;
-    } else if(chute == "Não" || "não") {
+    } else if(chute.toLowerCase() == "não") {
         elementoChute.innerHTML += ` <div>:(</div>
         <button id="jogar-novamente" class="btn-jogar">Tentar novamente</button>`;
     
