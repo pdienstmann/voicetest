@@ -1,6 +1,6 @@
 function verificaSeOChutePossuiUmValorValido(chute){
 
-    if(chute == "Sim" || "não"){
+    if(chute == "Sim" || "sim"){
         document.body.innerHTML=`<h2>Uhuuuuuul 🥳</h2>
                                 <h3></h3>
                                 <img src="./frame.png">`;
